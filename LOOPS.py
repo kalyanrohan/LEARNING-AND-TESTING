@@ -15,7 +15,7 @@ while guess != ans and not (out_of_guesses):
         guess_count += 1
     elif guess_count==3:
         ask_hint=input("Do you want a hint?: ")
-        if ask_hint== "yes" or "Yes" or "YES":
+        if ask_hint=="Yes"or ask_hint=="yes"or ask_hint=="YES":
             print(hint)
             guess=input("enter your answer: ")
             guess_count += 1
