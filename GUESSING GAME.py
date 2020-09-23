@@ -11,7 +11,6 @@ hint_2= "it is an odd number"
 hint_3= "the number is between 0 to 25 exclusive"
 hint_4= "the number is between 25 inclusive to 50"
 
-print(random)
 print("guess a number between 1 to 50: ")
 while guess != random and not (out_of_guesses):
     if guess_count <3:
@@ -104,6 +103,7 @@ while guess != random and not (out_of_guesses):
         out_of_guesses= True
 if out_of_guesses:
     print ("kalah tot")
+    print(random)
 else:
     print ("menang asu")
 
