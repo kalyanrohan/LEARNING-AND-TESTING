@@ -30,12 +30,12 @@ while guess != random and not (out_of_guesses):
                 guess_count += 1
                 hint_count+= 1
         else:
-            print("Input lagi goblok!")
+            print("Input another number")
             guess= int(input("enter a number: "))
             guess_count += 1
     elif guess_count == 5:
         if hint_count == 1:
-            ask_hint=input("Do you want your last hint?: ")
+            ask_hint=input("Do you want your another hint?: ")
             if ask_hint.lower()=="yes":
                 if random >= 0 and random<25:
                     print(hint_3)
@@ -48,7 +48,7 @@ while guess != random and not (out_of_guesses):
                     guess_count += 1
                     hint_count += 1
             else:
-                print("Input lagi goblok!")
+                print("Input another number")
                 guess= int(input("enter a number: "))
                 guess_count += 1
         else:
@@ -93,7 +93,7 @@ while guess != random and not (out_of_guesses):
                     hint_count += 1
         else:
             ask_hint= input("Do you want another hint?: ")
-            print("gaada clue lagi anjg")
+            print("SIKE! No more clues.")
             guess= int(input("enter a number: "))
             guess_count += 1
     elif guess_count < 10:
@@ -102,10 +102,10 @@ while guess != random and not (out_of_guesses):
     else:
         out_of_guesses= True
 if out_of_guesses:
-    print ("kalah tot")
+    print ("You loose!")
     print(random)
 else:
-    print ("menang asu")
+    print ("You win!")
 
 
 
