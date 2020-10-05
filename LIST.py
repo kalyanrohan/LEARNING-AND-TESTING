@@ -1,15 +1,3 @@
-a=[num for num in(range(10)) if num<6]
-
-print(a)
-
-
-
-
-
-
-
-
-
-
-
+x = [1, 2, 3, 4]
+print(x.index(1))
 

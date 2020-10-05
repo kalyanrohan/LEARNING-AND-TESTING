@@ -10,6 +10,3 @@ for number in numbers:
     start=0
     number=start+number
     print(number)
-
-
-    
