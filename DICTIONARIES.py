@@ -82,13 +82,18 @@ print(Patients.get("Patient 2").get("Age"))
 Colors=dict(light="Yellow",dark="Black",mixed="Green")
 print(Colors["light"])
 #to update your dictionary
-Colors.update({"light":"grey"})
+Colors.update({"black":"grey"})
 print(Colors)
 #to check whether a key exists. If key don't exist, can add it as a new key.
-Colors.setdefault("light","ash grey")
+Colors.setdefault("grey","ash grey")
 print(Colors)
 
+days=("mon","tues","wed","thurs","fri","sat","sun")
+days1=("monday","tuesday","wednesday","thursday","friday","saturday","sunday")
 
+
+day= dict.fromkeys(days,"monday","tueday")
+print(day)
 
 
 
