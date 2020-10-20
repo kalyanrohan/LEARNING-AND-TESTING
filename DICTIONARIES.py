@@ -92,8 +92,8 @@ days=("mon","tues","wed","thurs","fri","sat","sun")
 days1=("monday","tuesday","wednesday","thursday","friday","saturday","sunday")
 
 
-day= dict.fromkeys(days,"monday","tueday")
-print(day)
+
+
 
 
 
