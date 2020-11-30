@@ -1,21 +1,24 @@
-# try:
-#     age=int(input("age: "))
-#     print(age)
-# except ValueError:
-#     print("Invalid Value")
-
-try:
-    num1=int(input("enter number: "))
-    num2=int(input("enter another number: "))
-    result=num1/num2
-    print(result)
-except ValueError:
-    print("Invalid Input")
-except ZeroDivisionError as err:
-    print(err)
+def correct_stream(user, correct):
+    lst1=[]
+    for x in user:
+        for y in correct:
+            print(x,y)
 
 
  
+
+
+
+print(correct_stream(["it", "is", "find"], ["it", "is", "fine"]))
+        
+
+
+
+
+
+
+
+
         
 
 
